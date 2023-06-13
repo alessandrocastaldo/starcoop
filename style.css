@@ -470,7 +470,7 @@ section img {
   .homeimg {
     padding-bottom: 2rem;
   }
-  .imgh{max-width: 365px; max-height: 365px;}
+  .imgh{width: 370px; height: auto;}
 
   nav ul {font-size: 30%;}
 
