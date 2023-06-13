@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Scoop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="pagina.js"></script>
+    <style> @media (max-width: 767px) {.sections-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Imposta l'altezza del div al 100% dell'altezza della finestra del browser */
+    }}</style>
+  </head>
+<body>
+  <header id="menu">
+    <div class="logo">
+      <img id="fotologo" src="img/logostarscoop.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="celebs.html">ARTISTI</a></li>
+        <li><a href="pubblica.html">PUBBLICA</a></li>
+        <li><a href="account.html" class="current">ACCEDI</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>        
+    <h2>⭐️SEI UN PAPARAZZO?⭐️<br>Iscriviti sul nostro sito e pubblica il tuo scoop, riceverai un conpenso in base alle vews del tuo articolo! 🤑</h2>
+    </section>
+    <div class="sections-container">
+    <section id="scriviciiltuogossip">
+        <h2 class="iscri">Iscriviti</h2>
+        <form id="pubblica" class="bordimorbidi">
+          <label for="name">NOME:</label>
+          <input type="surname" id="name" name="surname" required />
+          <label for="surname">COGNOME:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">MAIL:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">PASSWORD:</label>
+          <input type="email" id="message" name="message" required>
+          <button type="submit">REGISTRATI</button>
+        </form>
+      </section>
+      <section id="scriviciiltuogossip2">
+        <h2 class="iscri">Accedi</h2>
+        <form id="pubblica2" class="bordimorbidi">
+          <label for="email">MAIL:</label>
+          <input type="password" id="email" name="password" required />
+          <label for="password">PASSWORD:</label>
+          <input type="email" id="message" name="message" required>
+          <button type="submit">ACCEDI</button>
+        </form>
+      </section>
+    </div>
+	</main>
+  <footer>
+    <p>&copy; Star Scoop - Tutti i diritti riservati - <a href="documentazione.html">Documentazione</a></p>
+  </footer>
+  </body>
+  </html>
+

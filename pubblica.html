@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="it">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Scoop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+    <script src="pagina.js"></script>
+  </head>
+<body>
+  <header id="menu">
+    <div class="logo">
+      <img id="fotologo" src="img/logostarscoop.png">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="celebs.html">ARTISTI</a></li>
+        <li><a href="pubblica.html" class="current">PUBBLICA</a></li>
+        <li><a href="account.html">ACCEDI</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section id="scriviciiltuogossip">
+        <h2>Pubblica il tuo gossip ✍️</h2>
+        <form id="pubblica-immagine-form" class="bordimorbidi">
+          <label for="image">SELEZIONA UN IMMAGINE:</label>
+          <input type="file" id="image" name="image" accept="image/*" required />
+          <button type="submit">Pubblica Immagine</button>
+        </form>
+        <form id="pubblica" class="bordimorbidi">
+          <label for="name">ARTISTA:</label>
+          <input type="text" id="name" name="name" required />
+          <label for="email">TITOLO:</label>
+          <input type="email" id="email" name="email" required />
+          <label for="message">ARTICOLO:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit">Invia</button>
+        </form>
+       
+      </section>
+	</main>
+  <footer>
+    <p>&copy; Star Scoop - Tutti i diritti riservati - <a href="documentazione.html">Documentazione</a></p>
+  </footer>
+  </body>
+  </html>>
