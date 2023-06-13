@@ -341,7 +341,7 @@ body {text-align: left;}
 .homeimg { display: flex;
   justify-content: center;
   align-items: center; padding-bottom: 4rem; max-width: 100%; max-height: 100%;}
-  .imgh{height: 80%; width: 0%;}
+  .imgh{height: 80%; width: 50%;}
 
   section img {
     width: 50%; /* La larghezza dell'immagine sarà uguale alla larghezza del suo contenitore */
